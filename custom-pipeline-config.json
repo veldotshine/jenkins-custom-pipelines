@@ -1,0 +1,42 @@
+[
+  {
+    "pipeline_id": "flush_dispatcher_cache",
+    "pipeline_name": "flush_dispatcher_cache",
+    "pipeline_description": "flush_dispatcher_cache",
+    "environment_variables": [{
+      "env_var1": "env_value1",
+      "env_var2": "env_value2"
+    }], 
+    "parameters": [{
+      "param_name": "PARAM1",
+      "param_value": "PARAM_VALUE",
+      "param_description": "Description comes here",
+    }],
+    "scm": [{
+      "repo_name": "repo_name",
+      "repo_url": "repo_url",
+      "branch_name": "refs/heads/master",
+      "script_path": "some_Jenkinsfile",
+    }]
+  }, 
+  {
+    "pipeline_id": "deploy_and_flush_dispatcher_cache",
+    "pipeline_name": "deploy_and_flush_dispatcher_cache",
+    "pipeline_description": "deploy_and_flush_dispatcher_cache",
+    "environment_variables": [{
+      "env_var1": "env_value1",
+      "env_var2": "env_value2"
+    }], 
+    "parameters": [{
+      "param_name": "PARAM1",
+      "param_value": "PARAM_VALUE",
+      "param_description": "Description comes here",
+    }],
+    "scm": [{
+      "repo_name": "repo_name",
+      "repo_url": "repo_url",
+      "branch_name": "refs/heads/master",
+      "script_path": "some_Jenkinsfile",
+    }]
+  }
+]
