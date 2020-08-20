@@ -3,15 +3,28 @@
     "pipeline_id": "flush_dispatcher_cache",
     "pipeline_name": "flush_dispatcher_cache",
     "pipeline_description": "flush_dispatcher_cache",
-    "environment_variables": [{
-      "env_var1": "env_value1",
-      "env_var2": "env_value2"
-    }], 
-    "parameters": [{
-      "param_name": "PARAM1",
-      "param_value": "PARAM_VALUE",
-      "param_description": "Description comes here",
-    }],
+    "environment_variables": [
+      {
+        "env_var_name": "env_var_1",
+        "env_var_value": "env_value_1"
+      },
+      {
+        "env_var_name": "env_var_2",
+        "env_var_value": "env_value_2"
+      }
+    ], 
+    "parameters": [
+      {
+        "param_name": "PARAM1",
+        "param_value": "PARAM_VALUE_1",
+        "param_description": "Param1 Description comes here"
+      }
+      {
+        "param_name": "PARAM2",
+        "param_value": "PARAM_VALUE_2",
+        "param_description": "Param2 Description comes here"
+      }
+    ],
     "scm": [{
       "repo_name": "repo_name",
       "repo_url": "repo_url",
@@ -23,15 +36,28 @@
     "pipeline_id": "deploy_and_flush_dispatcher_cache",
     "pipeline_name": "deploy_and_flush_dispatcher_cache",
     "pipeline_description": "deploy_and_flush_dispatcher_cache",
-    "environment_variables": [{
-      "env_var1": "env_value1",
-      "env_var2": "env_value2"
-    }], 
-    "parameters": [{
-      "param_name": "PARAM1",
-      "param_value": "PARAM_VALUE",
-      "param_description": "Description comes here",
-    }],
+    "environment_variables": [
+      {
+        "env_var_name": "env_var_1",
+        "env_var_value": "env_value_1"
+      },
+      {
+        "env_var_name": "env_var_2",
+        "env_var_value": "env_value_2"
+      }
+    ], 
+    "parameters": [
+      {
+        "param_name": "PARAM1",
+        "param_value": "PARAM_VALUE_1",
+        "param_description": "Param1 Description comes here"
+      }
+      {
+        "param_name": "PARAM2",
+        "param_value": "PARAM_VALUE_2",
+        "param_description": "Param2 Description comes here"
+      }
+    ],
     "scm": [{
       "repo_name": "repo_name",
       "repo_url": "repo_url",
